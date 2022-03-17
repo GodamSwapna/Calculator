@@ -1,0 +1,50 @@
+
+.main{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+  border: 10px solid #101116 ;
+  border-radius: 5px;
+  width: 55vh;
+  height: 70vh;
+  background-color: #676d8f;
+}
+
+
+input{
+  height: 7vh;
+  width: 40vh;
+  background-color: rgb(252, 246, 246);
+  border: 2px solid black;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color:black;
+} 
+button{
+  width: 8vh;
+  height: 8vh;
+  margin: 5px;
+  border: 2px solid rgb(26, 22, 22);
+  border-radius: 5px;
+  cursor: pointer;
+  color:black;
+  margin: 10px;
+  font-weight: 500;
+  font-size: large;
+  box-shadow: 5px 5px 15px -5px;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active{
+  outline: none;
+} 
